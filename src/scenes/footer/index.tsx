@@ -7,22 +7,24 @@ const Footer = () => {
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} />
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+            SPARTA provides specialized classes focused
+            on combat training. The
+            classes are high-intensity and designed to improve overall fitness
+            and self-defense skills. Joining the SPARTA community offers an
+            opportunity to reach your fitness goals and unleash your potential.
           </p>
-          <p>© Evogym All Rights Reserved.</p>
+          <p>© SPARTA All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p>
+          <p className="my-5">Follow us on Social Media</p>
+          <p className="my-5">Share with friends</p>
+          <p>Leave your feedback</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
-          <p>(333)425-6825</p>
+          <p className="my-5">384 Spartan Ave, CA 92667</p>
+          <p>(123) 456-7891</p>
         </div>
       </div>
     </footer>

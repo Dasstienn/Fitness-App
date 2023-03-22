@@ -46,9 +46,8 @@ function ContactUs({ setSelectedPage }: Props) {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Transform your body with us. Join our community today. Experience
+            our expert coaching. Start achieving your fitness goals.
           </p>
         </motion.div>
 
@@ -144,9 +143,9 @@ function ContactUs({ setSelectedPage }: Props) {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
+            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
               <img
-                className="w-full"
+                className="h-[350px] w-full rounded-[20px]"
                 alt="contact-us-page-graphic"
                 src={ContactUsPageGraphic}
               />

@@ -11,35 +11,39 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Training Classes",
+    name: "Mixed Martial Arts (MMA) Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "MMA classes (Mixed Martial Arts classes) are a form of combat sport that incorporates various techniques from different martial arts disciplines, including striking, grappling, and submission holds. These classes typically involve a combination of intense physical training and technical instruction to improve strength, agility, and fighting skills.",
     image: image1,
   },
   {
-    name: "Yoga Classes",
+    name: "Brazilian Jiu-Jitsu",
+    description:
+      "Brazilian Jiu-Jitsu classes are focused on teaching techniques for ground fighting, grappling, and submission holds. These classes often involve intense physical training, including drills and sparring sessions to develop strength, agility, and technique. BJJ classes are suitable for individuals of all fitness levels and are popular for their self-defense benefits, as well as their ability to improve overall physical health.",
     image: image2,
   },
   {
-    name: "Ab Core Classes",
+    name: "Crossfit",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Crossfit classes are high-intensity workouts that combine elements of weightlifting, gymnastics, and metabolic conditioning. These classes are designed to improve overall fitness and functional strength by challenging participants with varied, intense exercises. Crossfit classes are suitable for individuals of all fitness levels, as the workouts can be scaled and modified to accommodate different abilities.",
     image: image3,
   },
   {
-    name: "Adventure Classes",
+    name: "Kickboxing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Kickboxing classes are a type of martial arts training that combines boxing with kicking techniques. These classes typically involve a combination of cardio and strength training exercises that improve overall fitness and coordination. Kickboxing classes are suitable for individuals of all fitness levels and are popular for their ability to build self-confidence and improve self-defense skills.",
     image: image4,
   },
   {
-    name: "Fitness Classes",
+    name: "Weight Training",
+    description:
+      "Weight training classes are focused on building strength and muscle mass through resistance exercises, typically using weights or other equipment. These classes may involve a variety of exercises targeting different muscle groups, with the goal of increasing overall strength and fitness. Weight training classes are suitable for individuals of all fitness levels and are popular for their ability to improve body composition, bone density, and overall health.",
     image: image5,
   },
   {
-    name: "Training Classes",
+    name: "Personal Training",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Classes with coaches typically involve instruction and guidance from a trained fitness professional, who leads participants through exercises and provides feedback and motivation. These classes may focus on a variety of fitness goals, from weight loss to strength training, and are tailored to the needs of each individual.",
     image: image6,
   },
 ];
@@ -68,14 +72,14 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              We offer a wide range of classes, including Brazilian Jiu-Jitsu,
+              Muay Thai, and wrestling, to help you reach your fitness goals and
+              build your fighting skills. We will make sure you find what you
+              want!
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden scrollbar-thin scrollbar-thumb-primary-300 scrollbar-track-primary-100">
           <ul className="w-[2800px] whitespace-nowrap">
             {classes.map((item: ClassType, index) => (
               <Class

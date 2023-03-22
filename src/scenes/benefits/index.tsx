@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Our gym is fully equipped with state-of-the-art training equipment, designed to help you get the most out of your workouts. We offer a spacious and clean workout environment with plenty of natural light to keep you motivated and energized.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Our fitness classes are led by experienced instructors who will guide you through each workout, ensuring proper form and technique. All fitness levels are welcome, so come join us and get fit with a supportive community!",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Our gym trainers are certified professionals with years of experience in the fitness industry. They are passionate about helping you achieve your goals and will provide personalized coaching and support to ensure you get the most out of your workouts.",
   },
 ];
 
@@ -100,7 +100,7 @@ function Benefits({ setSelectedPage }: Props) {
           <div>
             {/* TITLE */}
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+              <div className="before:content-abstractwaves before:absolute before:-top-20 before:-left-20 before:z-[1]">
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -131,24 +131,25 @@ function Benefits({ setSelectedPage }: Props) {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Our gym is proud to have a community of happy members who have
+                achieved their fitness goals with us. They rave about our
+                supportive and welcoming environment, and the positive impact
+                our gym has had on their lives. Our members love the variety of
+                classes and equipment we offer, and appreciate the personalized
+                attention they receive from our trainers. Join our community and
+                see for yourself why our members are so satisfied with their
+                fitness journey!
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Our members love working out at our gym and consistently achieve
+                their fitness goals. Come see why our gym is the best choice for
+                achieving your fitness dreams.
               </p>
             </motion.div>
 
             {/* BUTTON */}
             <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+              <div className="before:content-sparkles before:absolute before:-bottom-20 before:right-40 before:z-[-1]">
                 <ActionButton setSelectedPage={setSelectedPage}>
                   Join Now
                 </ActionButton>

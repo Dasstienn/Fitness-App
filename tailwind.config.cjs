@@ -4,15 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "gray-20": "#F8F4EB",
-        "gray-50": "#EFE6E6",
-        "gray-100": "#DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
-        "secondary-400": "#FFCD5B",
-        "secondary-500": "#FFC132",
+        "gray-20": "#f8fafc",
+        "gray-50": "#f1f5f9",
+        "gray-100": "#cbd5e1",
+        "gray-500": "#0f172a",
+        "primary-100": "#ffedd5",
+        "primary-300": "#fb923c",
+        "primary-500": "#ea580c",
+        "secondary-400": "#facc15",
+        "secondary-500": "#ea580c",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred":
@@ -24,10 +24,10 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
+        spartatext: "url('./assets/SpartaText.png')",
+        // abstractwaves: "url('./assets/AbstractWaves.png')",
+        // sparkles: "url('./assets/Sparkles.png')",
+        // circles: "url('./assets/Circles.png')",
       },
     },
     screens: {
@@ -36,5 +36,5 @@ module.exports = {
       md: "1060px",
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
